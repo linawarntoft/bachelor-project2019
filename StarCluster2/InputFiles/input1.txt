@@ -1,0 +1,10 @@
+StarCluster2 input file.
+
+Different values for kappa is either King (1966) kappa_0 = 0.205 or Plummer (1911) kappa_0 = 0.195.
+
+Input the relevant values for your star cluster simulation in the order of amount of stars N, half-mass radius r_h, core radius r_c, initial radius to Jacobi radius rate R_0 and kappa:
+4096
+0.78
+0.32
+0.0333
+0.195

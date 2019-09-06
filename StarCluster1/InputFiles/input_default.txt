@@ -1,0 +1,7 @@
+Testing against Emacss default values. Ends up in Results/results_default.txt.
+
+Input the relevant values for your star cluster simulation in the order of amount of stars N  and initial radius to Jacobi radius rate R_0:
+94900
+1.47
+0.013
+100000

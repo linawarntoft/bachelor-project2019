@@ -1,0 +1,17 @@
+StarCluster2 input file.
+
+Different values for kappa is either King (1966) kappa_0 = 0.205 or Plummer (1911) kappa_0 = 0.195.
+
+Input the relevant values for your star cluster simulation in the order of amount of stars N, half-mass radius r_h, core radius r_c, kappa, true (1) for wollowing escapers or false (0) for not following escapers, value to multiply with r_J, x, y, z, v_x, v_y and v_z:
+4096
+0.78
+0.32
+0.195
+1
+500
+9790
+0
+0
+0
+66.27
+0
