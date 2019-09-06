@@ -1,5 +1,5 @@
 //Bachelor project by Lina Warntoft 2018
-/* This is the second version of the code for simulating star cluster formation and evolution.
+/* This is the third version of the code for simulating star cluster formation and evolution.
  The differential equations, the argument-evaluating functions and the Runge-Kutta 4 function
  will be declared and defined in this header file.
  
