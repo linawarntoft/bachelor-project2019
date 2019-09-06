@@ -1,3 +1,5 @@
+// Author: Florent Renaud, Lund University (2018)
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
