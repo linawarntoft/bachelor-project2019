@@ -1,5 +1,5 @@
 //Bachelor project by Lina Warntoft 2018
-/* In this main part of the project, the variables will be asked for and then fed into the called functions declared and defined in starcluster2.h */
+/* In this main part of the project, the variables will be asked for and then fed into the called functions declared and defined in starcluster3.h */
 
 #include "starcluster3.h"
 #include "potentialEscaper.h"
@@ -136,7 +136,7 @@ int main(){
 	output_results << phase << " " << N << " " << rh << " " << rc << " " << E << " " << kappa << " " << xi_e << " " << R_vj << " " << R_hj << " " << PE_count << " " << escaped << " " << t_step << " " << trc << " " << tot_time*u.myr << endl;
 	
 	
-	/*ofstream outfile; //Just to reset coords output file (maybe better way) LINA
+	/*ofstream outfile; //Just to reset coords output file
 	outfile.open("Results/coords.txt");
 	if (outfile.fail()){
 		cout << "Error: The output file did not open correctly in potentialEscapers.h." << endl;
