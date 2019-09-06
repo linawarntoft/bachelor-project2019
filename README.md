@@ -32,7 +32,7 @@ The code is written in c++ for runtime speed efficiency. For more detailed infor
 There are comments in the code to help you understand it as you go.
 
 ### StarCluster1
-The nummerical method is based on the one presented in Alexander and Gieles [2012] and reproduced for our project. For using the code:
+The numerical method is based on the one presented in Alexander and Gieles [2012] and reproduced for our project. For using the code:
 
 1. Enter the relevant data in an `input.txt` in the format found in the folder *InputFiles*
 2. Create a results folder named *Results*. Your data will be found here
@@ -42,12 +42,12 @@ The nummerical method is based on the one presented in Alexander and Gieles [201
 Remember to compile after every change to `input.txt`.
 
 ### StarCluster2
-The nummerical method is built upon the one used in *StarCluster1* and was based on Gieles et al. [2014]. For using the code:
+The numerical method is built upon the one used in *StarCluster1* and was based on Gieles et al. [2014]. For using the code:
 
 Follow the same steps as presented for *StarCluster1*. Note that there are more parameters needed in `input.txt` for this version.
 
 ### StarCluster3
-The nummerical method used for *StarCluster3* is the same as *StarCluster2*. The difference here is that we are now considering potentially escaping stars as different bodies in our simulation. They are created using the object `PotEsc`. For using this code:
+The numerical method used for *StarCluster3* is the same as *StarCluster2*. The difference here is that we are now considering potentially escaping stars as different bodies in our simulation. They are created using the object `PotEsc`. For using this code:
 
 Follow the same steps as presented for *StarCluster2*. Note that there are more parameters needed in `input.txt` for this version. You may also choose to not enter any initial coordinates and velocities in the input-file.
 
