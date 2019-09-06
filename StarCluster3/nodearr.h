@@ -116,36 +116,5 @@ void list_head_remove(Node<T>*& head_ptr){
 }
 
 //------------------------------------------------------------------------
-//-------------------------- ITERATOR FUNCTIONS --------------------------
-/*
-Iterator::Iterator(Node* initial=nullptr){
-	current_ = initial;
-}
-	
-double Iterator::operator*() const{
-	return current_->get_data();
-}
-
-Iterator& Iterator::operator++(){
-	current_ = current_->get_link();
-	return *this;
-}
-
-Iterator& Iterator::operator++(int){
-	Iterator temp = *this;
-	current_ = current_->get_link();
-	return temp;
-}
-
-bool Iterator::operator==(const Iterator other) const{
-	return current_ == other.current_;
-}
-
-bool Iterator::operator!=(const Iterator other) const{
-	return current_ != other.current_;
-}*/
-	
-//------------------------------------------------------------------------
-
 
 #endif //NODEARR_H
