@@ -1,4 +1,4 @@
-StarCluster2 input file.
+StarCluster3 input file.
 
 Different values for kappa is either King (1966) kappa_0 = 0.205 or Plummer (1911) kappa_0 = 0.195.
 
