@@ -28,12 +28,34 @@ of about a few minutes. Further development of this method might contribute to t
 stellar populations in galaxies.
 
 ## The code and how to use it
+The code is written in c++ for runtime speed efficiency. For more detailed information about the code, please read the full thesis.
+There are comments in the code to help you understand it as you go.
 
 ### StarCluster1
+The nummerical method is based on the one presented in Alexander and Gieles [2012] and reproduced for our project. For using the code:
+
+1. Enter the relevant data in an `input.txt` in the format found in the folder *InputFiles*
+2. Create a results folder named *Results*. Your data will be found here
+3. Compile all the files in the *StarCluster1* directory using the `g++ *.cpp` command in your Linux terminal
+4. Run the program using `./a.out` in the terminal
+
+Remember to compile after every change to `input.txt`.
 
 ### StarCluster2
+The nummerical method is built upon the one used in *StarCluster1* and was based on Gieles et al. [2014]. For using the code:
+
+Follow the same steps as presented for *StarCluster1*. Note that there are more parameters needed in `input.txt` for this version.
 
 ### StarCluster3
+The nummerical method used for *StarCluster3* is the same as *StarCluster2*. The difference here is that we are now considering potentially escaping stars as different bodies in our simulation. They are created using the object `PotEsc`. For using this code:
+
+Follow the same steps as presented for *StarCluster2*. Note that there are more parameters needed in `input.txt` for this version. You may also choose to not enter any initial coordinates and velocities in the input-file.
+
 
 #### Tides
-The files contained within the folder *Tides* are written by my supervisor Florent Renaud.
+The files contained within the folder *Tides* are written by my supervisor Florent Renaud. For more detailes on the theory behind his code, read Renaud et al. [2011] and Renaud and Gieles [2015]. For a shorter description, read part 2.3 of my thesis.
+
+## Contact
+
+For more information or questions about the code, please contact me at lwarntoft@gmail.com.
+
